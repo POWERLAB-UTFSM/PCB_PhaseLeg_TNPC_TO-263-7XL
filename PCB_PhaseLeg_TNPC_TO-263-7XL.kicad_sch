@@ -5,6 +5,174 @@
 	(uuid "70486c9a-ac5c-4a6c-8547-a4375a0d442b")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Transistor_FET:C3M0075120J"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -422,6 +590,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 88.9) (xy 156.21 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e3f172b-b524-4608-a7ce-8bcabf6a695c")
+	)
+	(wire
+		(pts
 			(xy 69.85 60.96) (xy 115.57 60.96)
 		)
 		(stroke
@@ -482,6 +660,26 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 86.36) (xy 93.98 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d808cbf8-9461-4335-a478-5f624c047ecd")
+	)
+	(wire
+		(pts
+			(xy 152.4 91.44) (xy 156.21 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebd1b244-9aed-4c7b-bb27-c70763b04138")
+	)
+	(wire
+		(pts
 			(xy 69.85 77.47) (xy 76.2 77.47)
 		)
 		(stroke
@@ -489,6 +687,17 @@
 			(type default)
 		)
 		(uuid "fb07322a-30ac-4420-9f80-c9d3f7f58d49")
+	)
+	(label "g1"
+		(at 156.21 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3667be7e-d4a1-46b2-8857-85e2957fa7ab")
 	)
 	(label "vccn"
 		(at 109.22 95.25 0)
@@ -501,6 +710,17 @@
 		)
 		(uuid "40856b21-b668-43d4-87dc-d1a3c6dbaa5c")
 	)
+	(label "g1"
+		(at 107.95 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43b24ac1-705d-4a68-af28-9d347e3007ea")
+	)
 	(label "ce"
 		(at 87.63 77.47 0)
 		(fields_autoplaced yes)
@@ -512,6 +732,17 @@
 		)
 		(uuid "4bee967b-c4f0-4a93-a27e-06edbc0f35b8")
 	)
+	(label "ks3"
+		(at 152.4 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54e67ebc-3aad-4b5b-b0d7-3ea2e5cdcab5")
+	)
 	(label "ph"
 		(at 115.57 77.47 0)
 		(fields_autoplaced yes)
@@ -522,6 +753,39 @@
 			(justify left bottom)
 		)
 		(uuid "822093bb-f012-45de-bfc9-74f5126d167e")
+	)
+	(label "ks1"
+		(at 156.21 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6bb0360-ad7e-4827-b559-898b75f877bf")
+	)
+	(label "g3"
+		(at 152.4 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bac69844-11d0-4209-8d97-06b0835456d6")
+	)
+	(label "ks1"
+		(at 107.95 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8f27427-f16b-4e0c-9ac5-9c02d2faae19")
 	)
 	(label "vccm"
 		(at 69.85 77.47 0)
@@ -544,6 +808,101 @@
 			(justify left bottom)
 		)
 		(uuid "dcb4e2ad-06d2-46b1-945c-020ecdecf6d4")
+	)
+	(label "g3"
+		(at 96.52 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "faf0019c-a97a-41cb-a2b7-32543df33921")
+	)
+	(label "ks3"
+		(at 93.98 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fdcd47db-c078-4bbf-9d75-d09291ffefdf")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 161.29 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b600a68-303a-46ab-b30a-584fd59985c2")
+		(property "Reference" "J3"
+			(at 163.83 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 163.83 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical_SMD_Pin1Left"
+			(at 161.29 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 161.29 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80901fe4-34a0-435d-8745-26cacb48233a")
+		)
+		(pin "2"
+			(uuid "fdd7c088-8538-4df4-b323-9a568cd6a1dc")
+		)
+		(pin "3"
+			(uuid "d3f326fb-4e4d-4728-b9e9-26c96d097faf")
+		)
+		(instances
+			(project "PCB_PhaseLeg_TNPC_TO-263-7XL"
+				(path "/70486c9a-ac5c-4a6c-8547-a4375a0d442b"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Transistor_FET:C3M0075120J")
@@ -626,7 +985,7 @@
 			(uuid "f7e6c44d-f276-4914-b00c-4edbdf9298c9")
 		)
 		(instances
-			(project "test2"
+			(project "PCB_PhaseLeg_TNPC_TO-263-7XL"
 				(path "/70486c9a-ac5c-4a6c-8547-a4375a0d442b"
 					(reference "Q4")
 					(unit 1)
@@ -717,7 +1076,7 @@
 			(uuid "9d2b60a5-4662-4164-bb36-611a22971a8e")
 		)
 		(instances
-			(project "test2"
+			(project "PCB_PhaseLeg_TNPC_TO-263-7XL"
 				(path "/70486c9a-ac5c-4a6c-8547-a4375a0d442b"
 					(reference "Q1")
 					(unit 1)
@@ -808,7 +1167,7 @@
 			(uuid "bf806394-b883-4c81-8f90-248432e083f0")
 		)
 		(instances
-			(project "test2"
+			(project "PCB_PhaseLeg_TNPC_TO-263-7XL"
 				(path "/70486c9a-ac5c-4a6c-8547-a4375a0d442b"
 					(reference "Q2")
 					(unit 1)
@@ -897,9 +1256,82 @@
 			(uuid "5d0f34bc-9161-43cf-9f79-e0a8b227c15b")
 		)
 		(instances
-			(project "test2"
+			(project "PCB_PhaseLeg_TNPC_TO-263-7XL"
 				(path "/70486c9a-ac5c-4a6c-8547-a4375a0d442b"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 161.29 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb8fa3e5-3d88-45d2-9790-e473023aaeb2")
+		(property "Reference" "J1"
+			(at 163.83 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 163.83 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical_SMD_Pin1Left"
+			(at 161.29 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 161.29 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ad990fe-3e7e-4b4b-8e63-553a511f9d4e")
+		)
+		(pin "2"
+			(uuid "2ce7bcb7-9f4b-4b58-b490-3d19370a1e4e")
+		)
+		(pin "3"
+			(uuid "f085db52-e784-4ce7-89bd-f290eca41f70")
+		)
+		(instances
+			(project "PCB_PhaseLeg_TNPC_TO-263-7XL"
+				(path "/70486c9a-ac5c-4a6c-8547-a4375a0d442b"
+					(reference "J1")
 					(unit 1)
 				)
 			)
