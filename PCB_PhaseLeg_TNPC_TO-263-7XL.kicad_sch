@@ -1,0 +1,913 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "70486c9a-ac5c-4a6c-8547-a4375a0d442b")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Transistor_FET:C3M0075120J"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C3M0075120J"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:TO-263-7_TabPin8"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.wolfspeed.com/media/downloads/997/C3M0075120J.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "30A Id, 1200V Vds, 75mOhm, N-Channel SiC MOSFET, TO-263-7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel SiC MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?263*TabPin8*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C3M0075120J_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 -3.175) (xy 2.54 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -3.175)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C3M0075120J_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "DS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54) hide
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54) hide
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54) hide
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54) hide
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 115.57 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "220ad42b-e11d-4f0b-a2d8-aab47bdee9f5")
+	)
+	(wire
+		(pts
+			(xy 69.85 60.96) (xy 115.57 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45311f86-7826-41f5-b8fe-383cf328368d")
+	)
+	(wire
+		(pts
+			(xy 115.57 77.47) (xy 115.57 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45b3cc85-a902-4b8e-b538-a7fb162bb784")
+	)
+	(wire
+		(pts
+			(xy 115.57 71.12) (xy 115.57 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5548c92-8fcf-4e9c-9718-f376ad7a86d1")
+	)
+	(wire
+		(pts
+			(xy 86.36 77.47) (xy 91.44 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7570a11-cdf6-48e1-8f82-6fa72148b96d")
+	)
+	(wire
+		(pts
+			(xy 101.6 77.47) (xy 115.57 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0f7a088-1077-40a9-8f7a-9c81ba287841")
+	)
+	(wire
+		(pts
+			(xy 69.85 95.25) (xy 115.57 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca61f65f-211a-4ec8-9be0-b3725d263ae2")
+	)
+	(wire
+		(pts
+			(xy 69.85 77.47) (xy 76.2 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb07322a-30ac-4420-9f80-c9d3f7f58d49")
+	)
+	(label "vccn"
+		(at 109.22 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40856b21-b668-43d4-87dc-d1a3c6dbaa5c")
+	)
+	(label "ce"
+		(at 87.63 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4bee967b-c4f0-4a93-a27e-06edbc0f35b8")
+	)
+	(label "ph"
+		(at 115.57 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "822093bb-f012-45de-bfc9-74f5126d167e")
+	)
+	(label "vccm"
+		(at 69.85 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da193253-d999-4381-adfb-da7fa78dfa1c")
+	)
+	(label "vccp"
+		(at 109.22 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dcb4e2ad-06d2-46b1-945c-020ecdecf6d4")
+	)
+	(symbol
+		(lib_id "Transistor_FET:C3M0075120J")
+		(at 96.52 80.01 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90299121-546d-4fc3-bb74-be9e71da1f26")
+		(property "Reference" "Q4"
+			(at 96.2533 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C3M0075120J"
+			(at 96.2533 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-7_TabPin8"
+			(at 94.615 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.wolfspeed.com/media/downloads/997/C3M0075120J.pdf"
+			(at 92.71 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "30A Id, 1200V Vds, 75mOhm, N-Channel SiC MOSFET, TO-263-7"
+			(at 96.52 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "223e8751-c281-4165-bb15-7838099d76ad")
+		)
+		(pin "3"
+			(uuid "746440d5-3d22-427d-8011-889738e0c826")
+		)
+		(pin "1"
+			(uuid "6b683097-6165-4719-9585-901a56f7253b")
+		)
+		(pin "2"
+			(uuid "be1546cb-3dd6-4ffc-993c-544156aac35c")
+		)
+		(pin "7"
+			(uuid "0846eedd-4242-4c3e-8ef9-a0bdc6049703")
+		)
+		(pin "6"
+			(uuid "0db2420e-cee5-41eb-982d-1276d3d576cc")
+		)
+		(pin "8"
+			(uuid "00d7285a-8337-4d76-b8a3-8467811a34fe")
+		)
+		(pin "5"
+			(uuid "f7e6c44d-f276-4914-b00c-4edbdf9298c9")
+		)
+		(instances
+			(project "test2"
+				(path "/70486c9a-ac5c-4a6c-8547-a4375a0d442b"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:C3M0075120J")
+		(at 113.03 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f0f24d4-8b90-41e6-acde-66071ea102e7")
+		(property "Reference" "Q1"
+			(at 119.38 65.0366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C3M0075120J"
+			(at 119.38 67.5766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-7_TabPin8"
+			(at 118.11 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.wolfspeed.com/media/downloads/997/C3M0075120J.pdf"
+			(at 118.11 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "30A Id, 1200V Vds, 75mOhm, N-Channel SiC MOSFET, TO-263-7"
+			(at 113.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "fd67efed-e13a-45c5-8589-bfd700badbfb")
+		)
+		(pin "3"
+			(uuid "dbc38179-a000-45ba-8acc-06b696c0a530")
+		)
+		(pin "1"
+			(uuid "34b285ce-da2e-41cb-98e1-8b1e3d0e87b5")
+		)
+		(pin "2"
+			(uuid "5adfa706-d684-4c41-a5f8-e666fd7d05f4")
+		)
+		(pin "7"
+			(uuid "acdb2ee8-10af-41f2-91b6-27e78de6408d")
+		)
+		(pin "6"
+			(uuid "4ac5065a-3386-4a74-a8e4-0cca17aee623")
+		)
+		(pin "8"
+			(uuid "a2b8b0c1-35b4-44f2-b2eb-fda503d4b54d")
+		)
+		(pin "5"
+			(uuid "9d2b60a5-4662-4164-bb36-611a22971a8e")
+		)
+		(instances
+			(project "test2"
+				(path "/70486c9a-ac5c-4a6c-8547-a4375a0d442b"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:C3M0075120J")
+		(at 113.03 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6c3c5ee-9e72-4806-b7b5-c617e7bc3e17")
+		(property "Reference" "Q2"
+			(at 119.38 89.1666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C3M0075120J"
+			(at 119.38 91.7066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-7_TabPin8"
+			(at 118.11 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.wolfspeed.com/media/downloads/997/C3M0075120J.pdf"
+			(at 118.11 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "30A Id, 1200V Vds, 75mOhm, N-Channel SiC MOSFET, TO-263-7"
+			(at 113.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "a9b82519-a441-4a7e-86b7-23a1127bf496")
+		)
+		(pin "3"
+			(uuid "6f26700f-973b-45b2-86d7-5cde796f30f2")
+		)
+		(pin "1"
+			(uuid "7a973e2d-8866-4028-9fbf-7a44ad2d880c")
+		)
+		(pin "2"
+			(uuid "2c9d5e3b-2c78-4eba-bb39-b15e752dc81a")
+		)
+		(pin "7"
+			(uuid "ed96d980-235a-4fd9-8367-88f3d057f450")
+		)
+		(pin "6"
+			(uuid "dc413ace-253f-4943-b27a-ec7003bda24f")
+		)
+		(pin "8"
+			(uuid "2f7c436d-b509-46e8-aefe-05ba40e819bf")
+		)
+		(pin "5"
+			(uuid "bf806394-b883-4c81-8f90-248432e083f0")
+		)
+		(instances
+			(project "test2"
+				(path "/70486c9a-ac5c-4a6c-8547-a4375a0d442b"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:C3M0075120J")
+		(at 81.28 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e92cee37-f0de-448f-bc8e-9115af2806e5")
+		(property "Reference" "Q3"
+			(at 81.5467 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C3M0075120J"
+			(at 81.5467 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-7_TabPin8"
+			(at 83.185 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.wolfspeed.com/media/downloads/997/C3M0075120J.pdf"
+			(at 85.09 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "30A Id, 1200V Vds, 75mOhm, N-Channel SiC MOSFET, TO-263-7"
+			(at 81.28 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "a6ead061-c825-4ed5-9cd1-12954f2e7701")
+		)
+		(pin "3"
+			(uuid "dc3887f8-2a50-4e72-8b75-da26fe04925c")
+		)
+		(pin "1"
+			(uuid "c1da5259-64a3-4c5d-9cd9-e743ff391f62")
+		)
+		(pin "2"
+			(uuid "0f6b603a-09d7-4fb1-8057-7a509d6fc063")
+		)
+		(pin "7"
+			(uuid "370af40c-6c2f-465f-a560-eb4feae1ea48")
+		)
+		(pin "6"
+			(uuid "63b5d731-4b17-436a-820b-fff1df1ef66e")
+		)
+		(pin "8"
+			(uuid "8fb5fca4-01d6-4ec9-b688-2e24f1bffa00")
+		)
+		(pin "5"
+			(uuid "5d0f34bc-9161-43cf-9f79-e0a8b227c15b")
+		)
+		(instances
+			(project "test2"
+				(path "/70486c9a-ac5c-4a6c-8547-a4375a0d442b"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
